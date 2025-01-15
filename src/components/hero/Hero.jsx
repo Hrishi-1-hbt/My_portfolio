@@ -57,31 +57,33 @@ export default function Hero() {
             </p>
 
             <div className="flex justify-center space-x-6">
-              <a
-                href="https://github.com/Hrishi-1-hbt"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 text-3xl hover:text-blue-700 transition duration-300"
-              >
-                <FaLinkedin />
-              </a>
-              <a
-                href="https://github.com/Hrishi-1-hbt"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-300 text-3xl hover:text-gray-500 transition duration-300"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href="mailto:hrushikeshtingani28@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-red-500 text-3xl hover:text-red-700 transition duration-300"
-              >
-                <FaEnvelope />
-              </a>
-            </div>
+            <a
+    href="https://www.linkedin.com/in/hrishi-tingani-365501270/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-300 text-3xl hover:text-gray-500 transition duration-300"
+  >
+    <FaLinkedin />
+  </a>
+  <a
+    href="https://github.com/Hrishi-1-hbt"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-300 text-3xl hover:text-gray-500 transition duration-300"
+  >
+    <FaGithub />
+  </a>
+  <a
+    href="mailto:hrushikeshtingani28@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-red-500 text-3xl hover:text-red-700 transition duration-300"
+  >
+    <FaEnvelope />
+  </a>
+</div>
+
+
             <div className="flex justify-center mt-8">
               <a href={CV} download>
                 <button
