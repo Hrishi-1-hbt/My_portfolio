@@ -35,4 +35,4 @@ To view or clone this project locally:
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/username/your-repository-name.git
+git clone https://github.com/Hrishi-1-hbt/My_portfolio
