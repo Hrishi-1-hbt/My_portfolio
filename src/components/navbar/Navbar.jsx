@@ -14,7 +14,7 @@ export default function Navbar() {
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <a href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                 
-                <span className="ml-3 text-4xl font-bold text-white handwritten-bold">
+                <span className="ml-3 text-2xl font-bold text-white font-handwritten">
                         Hrishi Tingani
                     </span>
                 </a>

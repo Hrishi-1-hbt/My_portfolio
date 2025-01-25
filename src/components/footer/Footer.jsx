@@ -22,7 +22,7 @@ export default function Footer() {
                         {item.name}
                     </a>
                 ))
-            }
+            }  
         </ul>
       </div>
    </footer>
