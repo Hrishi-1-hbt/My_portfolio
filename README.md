@@ -6,19 +6,6 @@ Welcome to my portfolio! This website showcases my skills, projects, and profess
 
 Hi! I'm **Hrishi Tingani**, a tech enthusiast with a keen interest in **Frontend Development**. I'm passionate about building web applications that are both functional and visually appealing. With experience in **React**, **TailwindCSS**, **Node.js**, and other modern technologies, I am eager to create innovative solutions to real-world problems.
 
-## Technologies Used
-
-Here are some of the technologies I work with:
-
-- **JavaScript** (ES6+)
-- **React**
-- **Node.js**
-- **Express**
-- **MongoDB**
-- **HTML5** & **CSS3**
-- **TailwindCSS**
-- **Python**
-- **Java**
 
 ## Features
 
