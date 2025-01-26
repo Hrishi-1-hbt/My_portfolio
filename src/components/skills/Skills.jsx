@@ -7,7 +7,7 @@ import Node from '../../assets/node.webp';
 import Tailwind from '../../assets/tcss.jpg';
 import python from '../../assets/python.png';
 import react from '../../assets/react.png';
-import Mongodb from '../../assets/mongodb.jpg';  // Ensure this path is correct
+import Mongodb from '../../assets/mongodb.jpg'; // Ensure this path is correct
 import express from '../../assets/express.jpg';
 
 export default function Skills() {
@@ -16,20 +16,24 @@ export default function Skills() {
       id="skills"
       className="relative overflow-hidden flex flex-col justify-center items-center text-white body-font min-h-screen bg-gray-900">
       <h2 className="text-4xl font-bold text-center mb-12">Skills</h2>
-      <div className="container px-5 py-24 mx-auto flex justify-center">
-        <div data-aos="fade-left" data-aos-delay="500" className="w-full overflow-hidden">
-          <div className="flex justify-center space-x-8 flex-wrap">
-            <img src={java} alt="Java" className="rounded-full w-16 h-16 object-cover" />
-            <img src={python} alt="Python" className="rounded-full w-16 h-16 object-cover" />
-            <img src={javascript} alt="JavaScript" className="rounded-full w-16 h-16 object-cover" />
-            <img src={html} alt="HTML" className="rounded-full w-16 h-16 object-cover" />
-            <img src={css} alt="CSS" className="rounded-full w-16 h-16 object-cover" />
-            <img src={react} alt="React" className="rounded-full w-16 h-16 object-cover" />
-            <img src={Tailwind} alt="Tailwind" className="rounded-full w-16 h-16 object-cover" />
-            <img src={Node} alt="Node" className="rounded-full w-16 h-16 object-cover" />
-            <img src={Mongodb} alt="MongoDB" className="rounded-full w-16 h-16 object-cover" />
-            <img src={express} alt="Express" className="rounded-full w-16 h-16 object-cover" />
-          </div>
+      <div className="container px-5 py-24 mx-auto">
+        {/* Grid Container */}
+        <div
+          data-aos="fade-left"
+          data-aos-delay="500"
+          className="grid grid-cols-2 md:grid-cols-10 gap-1 place-items-center"
+        >
+          {/* Skills Icons */}
+          <img src={java} alt="Java" className="rounded-full w-16 h-16 object-cover" />
+          <img src={python} alt="Python" className="rounded-full w-16 h-16 object-cover" />
+          <img src={javascript} alt="JavaScript" className="rounded-full w-16 h-16 object-cover" />
+          <img src={html} alt="HTML" className="rounded-full w-16 h-16 object-cover" />
+          <img src={css} alt="CSS" className="rounded-full w-16 h-16 object-cover" />
+          <img src={react} alt="React" className="rounded-full w-16 h-16 object-cover" />
+          <img src={Tailwind} alt="Tailwind" className="rounded-full w-16 h-16 object-cover" />
+          <img src={Node} alt="Node" className="rounded-full w-16 h-16 object-cover" />
+          <img src={Mongodb} alt="MongoDB" className="rounded-full w-16 h-16 object-cover" />
+          <img src={express} alt="Express" className="rounded-full w-16 h-16 object-cover" />
         </div>
       </div>
     </section>
